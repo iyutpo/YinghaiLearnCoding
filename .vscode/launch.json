@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HouseRobberII",
+            "request": "launch",
+            "mainClass": "HouseRobberII",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
             "name": "Launch JumpGameIV",
             "request": "launch",
             "mainClass": "JumpGameIV",
