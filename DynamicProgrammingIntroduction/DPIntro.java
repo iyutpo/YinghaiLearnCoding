@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /*
 这里简单介绍一下动态规划算法，以及一个经典案例
 
