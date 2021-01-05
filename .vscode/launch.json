@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DPIntro",
+            "request": "launch",
+            "mainClass": "DPIntro",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
             "name": "Launch HouseRobberII",
             "request": "launch",
             "mainClass": "HouseRobberII",
