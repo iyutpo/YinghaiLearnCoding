@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UniquePaths",
+            "request": "launch",
+            "mainClass": "UniquePaths",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbingStairs",
+            "request": "launch",
+            "mainClass": "ClimbingStairs",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestThread",
+            "request": "launch",
+            "mainClass": "TestThread",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
             "name": "Launch DPIntro",
             "request": "launch",
             "mainClass": "DPIntro",
