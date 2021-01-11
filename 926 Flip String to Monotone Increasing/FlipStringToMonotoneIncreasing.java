@@ -31,10 +31,29 @@ public class FlipStringToMonotoneIncreasing {
         /*
         这题也是典型的动态规划问题。对于动态规划问题，我们先要考虑base case。本题的base case
         是，当我们在看最后一位数的时候，
-        1) 如果是'1'那么就一定能保证 monontone increasing。
+        1) 如果是'1'那么就一定能保证 monotone increasing。
         2) 如果是'0'，那么就有两种情况:
             a. 要么就是'0'不变，将最后一位之前的所有'1' 都 flip 成 '0'
             b. 要么就是将最后一位的 '0' 变成 '1'。
         */
+        int ans = 0, ones = 0, zeros = 0;
+        for (int i = 0; i < S.length(); i++) {
+            if (S.charAt(i) == '1') {
+                ones++;
+            } else { zeros++; }
+            if (zeros > ones) {
+                ans += ones;
+                ones = 0;
+                zeros = 0;
+            }
+        }
+        return ans + zeros;
+    }
+
+
+    public static void main(String[] args) {
+        FlipStringToMonotoneIncreasing s = new FlipStringToMonotoneIncreasing();
+        String S = "00011000";
+        System.out.println(s.Solution1(S));
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FlipStringToMonotoneIncreasing",
+            "request": "launch",
+            "mainClass": "FlipStringToMonotoneIncreasing",
+            "projectName": "YinghaiLearnCoding_3e7cf689"
+        },
+        {
+            "type": "java",
             "name": "Launch UniquePaths",
             "request": "launch",
             "mainClass": "UniquePaths",
